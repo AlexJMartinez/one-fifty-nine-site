@@ -1,0 +1,23 @@
+a, a:visited, a:active {
+    color: inherit;
+   }
+
+li:hover {
+    opacity: 10%;
+}
+
+li {
+    display: inline;
+    margin: 50px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
